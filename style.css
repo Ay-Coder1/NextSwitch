@@ -102,16 +102,14 @@ color:#3183e7;
 
 @media only screen and (max-width: 768px) {
     body {
-        height: auto; /* Adjust height as needed for smaller screens */
+        height: auto; /
     }
 
     .text h2 {
-        font-size: 36px; /* Adjust font size for smaller screens */
-        width: 100%; /* Make the width full for smaller screens */
-        margin: 10px; /* Adjust margin as needed */
+        font-size: 36px; 
+        width: 100%;
+        margin: 10px;
     }
-
-    /* Add other styles that need to be adjusted for smaller screens */
 }
 
 
@@ -201,7 +199,7 @@ background-blend-mode: color;
 /* Media Query for Smaller Screens */
 @media (max-width: 768px) {
     .bar {
-        margin-left: 5%; /* Adjust margin as needed for smaller screens */
+        margin-left: 5%; 
     }
 
     .bar p {
