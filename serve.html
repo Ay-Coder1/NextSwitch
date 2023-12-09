@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Arial', sans-serif;
+    }
+
+    section {
+      padding: 20px;
+      box-sizing: border-box;
+    }
+
+    .row {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .text {
+      order: 2; /* Change the order for mobile layout */
+    }
+
+    .wrap {
+      display: flex;
+      justify-content: space-around;
+      margin-top: 20px;
+    }
+
+    .elit,
+    .elite,
+    .blue {
+      max-width: 100%; /* Make images responsive */
+      height: auto;
+    }
+
+    .wrapper {
+      margin-top: 20px;
+    }
+
+    .pay {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+    }
+
+    .pay div {
+      margin: 10px;
+    }
+
+    @media only screen and (max-width: 600px) {
+      .row {
+        text-align: center;
+      }
+
+      .text {
+        order: 1;
+      }
+
+      .wrap {
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .pay {
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .pay div {
+        margin: 10px 0;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<section>
+  <div class='row'>
+    <div class='text'>
+      <h2>Launch your tech Career, become an expert</h2>
+      <p>At Next Switch, we believe that our team is the key to our success. We are always on the lookout for talented and driven individuals who are</p>
+    </div>
+    <div class='wrap'>
+      <img src="./image/Ellipse1.svg" class='elit' alt="" />
+      <img src="./image/Ellipse2.svg" class='elite' alt="" /> 
+      <img src="./image/young.png" class='blue' alt="" />
+    </div>
+  </div>
+
+  <div class='wrapper'> 
+    <h2>We are in partnership with</h2>
+    <div class='pay'>
+      <div><img src="./image/paystack.png" alt="" /></div>
+      <div><img src="./image/Microsoft.png" alt="" /></div>
+      <div><img src="./image/AMi1.png" alt="" /></div>
+      <div><img src="./image/Kudabank.png" alt="" /></div>
+      <div><img src="./image/Google.png" alt="" /></div>
+      <div><img src="./image/flutterwave.png" alt="" /></div>
+    </div>
+  </div>
+</section>
+
+</body>
+</html>
