@@ -174,22 +174,24 @@ li {
   }
 
   .section-1 h2 {
-    font-size: 25px;
-    line-height: 20px;
+    font-size: 45px;
+    line-height: 50px;
     color: #fff;
   }
    .section-1 .wrap .elit{
     width: 50px;
     padding-top: 99%;
+    display: none;
    }
    .section-1 .elite{
     width: 80px;
     /* position: relative; */
     margin-top: 50%;
     margin-right: 90%;
+    display: none;
    }
   .section-1 p {
-    font-size: 15px;
+    font-size: 20px;
     color: #fff;
   }
 
@@ -217,6 +219,9 @@ li {
 
 /* Responsive styles for mobile */
 @media only screen and (max-width: 600px) {
+  body{
+    overflow-x: hidden;
+  }
   .navbar {
     flex-direction: column;
   }
