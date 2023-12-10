@@ -3,105 +3,297 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <style>
-    body {
-      margin: 0;
-      font-family: 'Arial', sans-serif;
-    }
-
-    section {
-      padding: 20px;
-      box-sizing: border-box;
-    }
-
-    .row {
-      display: flex;
-      flex-direction: column;
-    }
-
-    .text {
-      order: 2; /* Change the order for mobile layout */
-    }
-
-    .wrap {
-      display: flex;
-      justify-content: space-around;
-      margin-top: 20px;
-    }
-
-    .elit,
-    .elite,
-    .blue {
-      max-width: 100%; /* Make images responsive */
-      height: auto;
-    }
-
-    .wrapper {
-      margin-top: 20px;
-    }
-
-    .pay {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: space-around;
-    }
-
-    .pay div {
-      margin: 10px;
-    }
-
-    @media only screen and (max-width: 600px) {
-      .row {
-        text-align: center;
-      }
-
-      .text {
-        order: 1;
-      }
-
-      .wrap {
-        flex-direction: column;
-        align-items: center;
-      }
-
-      .pay {
-        flex-direction: column;
-        align-items: center;
-      }
-
-      .pay div {
-        margin: 10px 0;
-      }
-    }
-  </style>
+  <title>NEXT-SWITCH ACADEMY</title>
+  <link rel="stylesheet" href="style.css">
+  
 </head>
 <body>
-
-<section>
-  <div class='row'>
-    <div class='text'>
-      <h2>Launch your tech Career, become an expert</h2>
+  <div class="container">
+      <!-- Your existing HTML content here -->
+      <section class='container'>
+        <div class='navbar'>
+          <div class='logo'>
+            <img src="image/vector.svg" alt="" />
+          </div>
+          <div class='bar'>
+            <ul>
+              <li>Home</li>
+              <li>Faculties</li>
+              <li>Memebership</li>
+              <li>Bootcamps</li>
+              <li>Events</li>
+              <p class='btn'>Carrer With Us</p>
+            </ul>
+           
+          </div>
+          <div class='menu-icon' onclick="toggleMenu()">☰</div>
+        </div>
+      </section>
+      
+      <section class="section-1">
+      <div class='row'>
+      <div class='text'>
+      <h2>Launch your tech
+      Career, become
+      an expert</h2>
       <p>At Next Switch, we believe that our team is the key to our success. We are always on the lookout for talented and driven individuals who are</p>
-    </div>
-    <div class='wrap'>
+      
+      </div>
+      <div class='wrap'>
       <img src="./image/Ellipse1.svg" class='elit' alt="" />
       <img src="./image/Ellipse2.svg" class='elite' alt="" /> 
       <img src="./image/young.png" class='blue' alt="" />
-    </div>
+      
+      </div>
+      </div>
+      
+      <div class='wrapper'> 
+      <h2>We are in partnership with</h2>
+      <div class='pay'>
+      <div>
+      <img src="./image/paystack.png" alt="" />
+      </div>
+      <div>
+      <img src="./image/Microsoft.png" alt="" />
+      </div>
+      <div>
+      <img src="./image/AMi1.png" alt="" />
+      </div>
+      <div>
+      <img src="./image/Kudabank.png" alt="" />
+      </div>
+      <div>
+      <img src="./image/Google.png" alt="" />
+      </div>
+      <div>
+      <img src="./image/flutterwave.png" alt="" />
+      </div>
+      </div>
+      </div>
+      </section>
+      
+      <section>
+      <div class="special">
+      <h2>Our Top Specialization</h2>
+      </div>
+      <div class='card'>
+      
+      <div class='row-1'>
+      <img src="./image/vector12.svg" alt="" />
+      <p>Level up your computer programming and software engineering skills and build a promising career..</p>
+      </div>
+      <div class='row-2'>
+      <img src="./image/vector13.svg" alt="" />
+      <p>Transition into a product design career and develop cutting age skills in design..</p>
+      </div>
+      <div class='row-3'>
+      <img src="./image/vector14.svg" alt="" />
+      <p>Transition into a product design career and develop cutting age skills in design.</p>
+      </div>
+      <div class='row-3'>
+      <img src="./image/vector15.svg" alt="" />
+      <p>Jumpstart your career in marketing and learn how to be on top of the sales game..</p>
+      </div>
+      
+      </div>
+      </section>
+      
+      
+      <section class="section-2">  
+      <div class="section-3">
+      <h2>Why Study at Next Switch?</h2>
+      </div>
+      <div class="sect">
+        <div class="community">
+          <div class="row">
+          <div class="col">
+          <img src="./image/baseline-laptop 1.svg" alt="" class="img-1">
+          </div>
+          <div class="col-1">
+          <h3>Project Based Learning.</h3>
+          <p>Our courses are practical, hands- on learning. Practice an apply knowledge faster with real-world Web Development projects you can show off.</p>
+          </div>
+          
+          
+          </div>
+          <div class="row">
+          <div class="col">
+          <img src="./image/certificate 1.svg" alt="" class="img-1">
+          </div>
+          <div class="col-1">
+          <h3>Certificate.</h3>
+          <p>Be certified by an accredited and globally recognized Institution. Next Switch got its accreditation in sept. 2021 From the NBTE, Nigeria.</p>
+          </div>
+          
+          
+          </div>
+          <div class="row">
+          <div class="col">
+            <img src="./image/profile-fill (1) 1.svg" alt="" class="img-1">
+          </div>
+          <div class="col-1">
+            <h3>Expert Tutors.</h3>
+            <p>
+              Our courses are practical, hands- on learning. Practice an apply knowledge faster with real-world Web Development projects you can show off.</p>
+          </div>
+            
+          
+          </div>
+          
+          <div class="row">
+            <div class="col">
+              <img src="./image/community 1.svg" alt="" class="img-1">
+            </div>
+            <div class="col-1">
+              <h3>Free access to our hub and Community</h3>
+              <p>You will have access to our fully functional Hub for co-working and working on projects, Assignments an even begin a start-up.</p>
+            </div>
+              
+            
+          </div>
+          
+          </div>
+          <div class="community" style="width: 96%;">
+            <div class="row">
+            <div class="col">
+            <img src="./image/briefcase (1) 1.svg" alt="" class="img-1">
+            </div>
+            <div class="col-1">
+            <h3>Job Opportunity</h3>
+            <p>78.5% of our students found secure employment within three Months of Graduation. Students leave from learning to G getting job rolesp>
+            </div>
+            
+            
+            </div>
+            <div class="row">
+            <div class="col">
+            <img src="./image/book-solid 1.svg" alt="" class="img-1">
+            </div>
+            <div class="col-1">
+            <h3>Alumni Support</h3>
+            <p>Our students have access to alumni who currently work at top tech organizations in the world such the world such S Google, Microsoft, Interswtich etc.</p>
+            </div>
+            
+            
+            </div>
+            <div class="row">
+            <div class="col">
+              <img src="./image/virtual-meeting 1.svg" alt="" class="img-1">
+            </div>
+            <div class="col-1">
+              <h3>Access to study materials</h3>
+              <p>Students have access to prerecorded videos and
+                Resources they can make use to further solidify their knowledge.</p>
+            </div>
+              
+            
+            </div>
+            
+            <div class="row">
+              <div class="col" style="margin-left:5px;">
+                <img src="./image/outline-contact-support 1.svg" alt="" class="img-1">
+              </div>
+              <div class="col-1">
+                <h3>Physical & Virtual Class</h3>
+                <p>You can now choose physical class experience or online classroom and learn from
+                  Anywhere in the world.</p>
+              </div>
+                
+              
+            </div>
+            </div>
+      </div>
+      
+      
+      </section>
+      
+      
+      <section class="experience">
+        <div class="header">
+          <h2>Experience our life changing  <br>Bootcamp</h2>
+        </div>
+        <div class="row">
+          <div clss="card">
+            <div class="card-img">
+             
+            </div>
+            <div class="card-text">
+             <h3>Start your journey
+               in product design <br> <button class="btn"><a href="#">View Course</a></button></h3>
+              
+            </div>
+         </div>
+         <div clss="card">
+           <div class="card-img-2">
+            
+           </div>
+           <div class="card-text">
+            <h3>Start your journey
+              in product design  <br> <button class="btn"><a href="#">View Course</a></button></h3>
+           </div>
+        </div>
+       
+        </div>
+       
+      </section>
+      
+      
+      
+      <section class="career">
+        <div class="row">
+          <div class="col-1">
+            <h2>Grow your skills 
+              and learn with us at
+              Next Switch</h2>
+              <p>Lets help you hone your skill and get you started in your tech career in the most rewarding way.</p>
+              <p class="ban">Carrer with us</p>
+          </div>
+          <div class="col-2">
+            <img src="image/study-group-african-people 1.png" alt="">
+          </div>
+        </div>
+      </section>
+      
+      <footer>
+        <div class="row">
+            <div class="col-1">
+              <img src="image/Vector.svg" alt="">
+            </div>
+            <div class="col-2">
+              <ul>
+                <li>Home</li>
+                <li>About Us</li>
+                <li>Contact Us</li>
+              </ul>
+            </div>
+            <div class="col-3">
+              <ul>
+                <li>Incubated Startup</li>
+                <li>Privacy and Policies</li>
+                <li>Term and Condition</li>
+              </ul>
+            </div>
+            <div class="col-4">
+              <ul>
+                <li>Career</li>
+                <li>Media Kit</li>
+                <li>Sitemap</li>
+              </ul>
+            </div>
+            <div class="col-5">
+              <h3>Stay Updated</h3>
+              <h4>Subscribe to our newslatter to get
+                updates on our latest offer. </h4>
+                <input type="email" placeholder="Yout email address">
+                <img src="image/Shape.svg" alt=""> 
+            </div>
+        </div>
+        <hr>
+      </footer>
+      
   </div>
-
-  <div class='wrapper'> 
-    <h2>We are in partnership with</h2>
-    <div class='pay'>
-      <div><img src="./image/paystack.png" alt="" /></div>
-      <div><img src="./image/Microsoft.png" alt="" /></div>
-      <div><img src="./image/AMi1.png" alt="" /></div>
-      <div><img src="./image/Kudabank.png" alt="" /></div>
-      <div><img src="./image/Google.png" alt="" /></div>
-      <div><img src="./image/flutterwave.png" alt="" /></div>
-    </div>
-  </div>
-</section>
+  <script src="script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 
 </body>
 </html>
