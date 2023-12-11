@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Arial', sans-serif;
+    }
+
+    .container {
+      width: 100%;
+      box-sizing: border-box;
+      padding: 20px;
+      background-color: #333;
+    }
+
+    .navbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .logo img {
+      height: 50px; /* Adjust the logo height as needed */
+    }
+
+    .bar ul {
+      list-style-type: none;
+      display: flex;
+      align-items: center;
+      margin: 0;
+    }
+
+    .bar li {
+      margin-right: 20px; /* Adjust the spacing between list items as needed */
+      color: white;
+      cursor: pointer;
+    }
+
+    .bar .btn {
+      background-color: #4CAF50;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 5px;
+      cursor: pointer;
+      width: 100px;
+    }
+
+    /* Responsive Styles for Mobile */
+    @media only screen and (max-width: 600px) {
+      .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+        width: 100%;
+        
+        
+      }
+        .menu-icon{
+            margin-left: 400px;
+        }
+      .bar {
+        margin-top: 10px;
+        display: none; /* Hide the menu by default on mobile */
+      }
+
+      .bar.active {
+        display: flex; /* Show the menu when active */
+        flex-direction: column;
+        width: 100%;
+      }
+
+      .bar ul {
+        flex-direction: column;
+        text-align: center;
+        width: 100%;
+      }
+     
+      .bar li {
+        margin: 10px 0;
+      }
+
+      .bar .btn {
+        width: 100%;
+        text-align: center;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<section class='container'>
+  <div class='navbar'>
+    <div class='logo'>
+        
+      <img src="image/Vector.svg" alt="">
+      
+    </div>
+    
+    <div class='bar'>
+      <ul>
+        <li>Home</li>
+        <li>Faculties</li>
+        <li>Memebership</li>
+        <li>Bootcamps</li>
+        <li>Events</li>
+      </ul>
+      <p class='btn'>Carrer With Us</p>
+      
+    </div>
+    <div class='menu-icon' onclick="toggleMenu()">☰</div>
+  </div>
+ 
+</section>
+
+
+
+</body>
+</html>

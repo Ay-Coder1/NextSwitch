@@ -10,11 +10,14 @@
 <body>
   <div class="container">
       <!-- Your existing HTML content here -->
-      <section class='container'>
+      <section class='contain'>
         <div class='navbar'>
           <div class='logo'>
+              
             <img src="image/Vector.svg" alt="">
+            
           </div>
+          
           <div class='bar'>
             <ul>
               <li>Home</li>
@@ -22,13 +25,14 @@
               <li>Memebership</li>
               <li>Bootcamps</li>
               <li>Events</li>
-              <p class='btn'>Carrer With Us</p>
             </ul>
-           
+            <p class='btn'>Carrer With Us</p>
           </div>
           <div class='menu-icon' onclick="toggleMenu()">☰</div>
         </div>
+       
       </section>
+      
       
       <section class="section-1">
       <div class='row'>
@@ -36,7 +40,7 @@
       <h2>Launch your tech
       Career, become
       an expert</h2>
-      <p>At Next Switch, we believe that our team is the key to our success. We are always on the lookout for talented and driven individuals who are</p>
+      <p>At Next Switch, we believe that our team is the key to our success. <br> We are always on the lookout for talented and driven individuals who are</p>
       
       </div>
       <div class='wrap'>
@@ -48,7 +52,7 @@
       </div>
       
       <div class='wrapper'> 
-      <h2>We are in partnership with</h2>
+      <h2>We are in  partnership with</h2>
       <div class='pay'>
       <div>
       <img src="./image/paystack.png" alt="" />
@@ -65,9 +69,7 @@
       <div>
       <img src="./image/Google.png" alt="" />
       </div>
-      <div>
-      <img src="./image/flutterwave.png" alt="" />
-      </div>
+     
       </div>
       </div>
       </section>
@@ -294,6 +296,29 @@
   </div>
   <script src="script.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
-
+  <script>
+    // Function to toggle the 'active' class on the bar element
+    function toggleMenu() {
+      var bar = document.querySelector('.bar');
+      bar.classList.toggle('active');
+    }
+  
+  
+    // Add event listener for the 'resize' event on the window
+    window.addEventListener('resize', function () {
+      var bar = document.querySelector('.bar');
+      // var btn = document.querySelector('.btn');
+  
+      // Check if the window width is greater than 600 pixels
+      if (window.innerWidth > 600) {
+        // Remove the 'active' class and show the menu
+        bar.classList.remove('active');
+        bar.style.display = 'flex';
+      } else {
+        // Hide the menu on smaller screens
+        bar.style.display = 'none';
+      }
+    });
+  </script>
 </body>
 </html>
