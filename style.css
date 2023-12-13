@@ -287,8 +287,11 @@ color: #fff;
 
   }
   .wrapper h2 {
-    margin-left: 80px;
-    font-size: 26px;
+    display: flex;
+    gap: 0;
+    list-style: none;
+    width:300px;
+    font-size: 50px;
   }
 }
 
@@ -410,7 +413,7 @@ color: #fff;
     color: #FFF;
     text-align: center;
     font-family: Clash Display;
-    font-size: 45px;
+    font-size: 35px;
     padding-top: 30px;
     font-style: normal;
     font-weight: 600;
@@ -422,16 +425,31 @@ color: #fff;
     border-radius: 33px;
     
     }
+    .experience .row{
+      margin-top: 20px;
+      display: flex;
+      gap: 19px;
+    }
     .card-img{
     margin-top: 5%;
     margin-left: 10%;
     background: url(image/professional-businessman-using-sticky-notes-whiteboard-share-ideas-business-strategy-plan-business-concept\ 1.png);
     background-repeat: no-repeat;
-    background-size: cover;
-    width: 704px;
-    height: 471.864px;
+    background-size: contain;
+    width: 404px;
+    height: 271.864px;
     flex-shrink: 0;
     }
+    .card-img-2{
+      margin-top: 5%;
+      margin-left: 10%;
+      background: url(image/professional-businessman-using-sticky-notes-whiteboard-share-ideas-business-strategy-plan-business-concept\ 1.png);
+      background-repeat: no-repeat;
+      background-size: contain;
+      width: 404px;
+      height: 271.864px;
+      flex-shrink: 0;
+      }
     .card-text h3{
     color: #FFF;
     text-align: center;
@@ -442,10 +460,22 @@ color: #fff;
     line-height: 55px; /* 137.5% */
     border-radius: 0px 0px 25px 25px;
     background: var(--Deep-Blue, #002F68);
-    width: 704px;
-    height: 100px;
+    width: 404px;
+    height: 130px;
     margin-left: 10%;
     }
+  
+.btn a{
+      text-decoration: none;
+      padding: 4px;
+      color: #fff;
+    }
+  .btn{
+    background-color: #002F68;
+    padding: 4px;
+  }
+
+
 
   
 
@@ -483,23 +513,59 @@ color: #fff;
     width: 100%;
     height: auto;
   }
-  .special h2{
-    margin-left: 100%;
+  .special-1 .card{
+    flex-direction: column;
+    margin-top: 299%;
+    width: 224%;
+    margin-left: 0%;
+    
   }
-  .card{
-     flex-direction: column;
-     margin-top:260%;
-     width: 350%;
+  .special-1 p{
+    font-size: 20px;
+  }
+  
+  .special h2{
+    display: flex;
+    gap: 0;
+    list-style: none;
+    width:300px;
+    font-size: 50px;
+  }
+  .experience{
+    margin-top: 20%;
+  }
+  .experience .header h2{
+    display: flex;
+    gap: 0;
+    list-style: none;
+    width:300px;
+    font-size: 50px;
+  }
+  .experience .row{
+    flex-direction: column;
+    
+  }
+   .experience .card-img{
+     gap: 1px;
+     width: 302px;
+     height: 200px;
      
+  }
+  .experience .card-text h3{
+    width: 301px;
+    height: fit-content;
+    
   }
   
   .section-2{
     margin-top: 260%;
   }
-  .section-3{
+  .section-3 h2{
     display: flex;
-    margin-left: 80px;
-    font-size: 21px;
+    gap: 0;
+    list-style: none;
+    width:300px;
+    font-size: 50px;
   }
   .sect{
     width: 230%;
